@@ -263,5 +263,13 @@ export let prop = 'its default value'
 	</label>
 {/each}
 ```
-- LAST TIME I END TUTORIAL ON THIS LINK https://svelte.dev/tutorial/multiple-select-bindings 
+
+## ContentEditable
+```
+<div
+	contenteditable="true"
+	bind:innerHTML={html}
+></div>
+```
+- LAST TIME I END TUTORIAL ON THIS LINK https://svelte.dev/tutorial/media-elements
 
